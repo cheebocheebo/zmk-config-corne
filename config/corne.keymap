@@ -103,21 +103,22 @@
             key-positions = <10 22>;
         };
 */
+          layout_switch {
+            bindings = <&tog 1>;
+            key-positions = <36 37 38>;
+        };
+
         layout_switch {
-            bindings = <&tog 4>;
+            bindings = <&tog 3>;
             key-positions = <36 41>;
         };
 
         layout_switch {
-            bindings = <&tog 5>;
+            bindings = <&tog 6>;
             key-positions = <37 40>;
         };
 
-        system_layer_combo {
-            bindings = <&mo 3>;
-            key-positions = <36 37 38>;
-        };
-    };
+};
 
     conditional_layers { compatible = "zmk,conditional-layers"; };
 
