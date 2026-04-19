@@ -109,17 +109,17 @@
             key-positions = <10 22>;
         };
 */
-          layout_switch {
+          colemak_switch {
             bindings = <&tog 1>;
-            key-positions = <36 37 38>;
+            key-positions = <38 39>;
         };
 
-        layout_switch {
+        photoshop_switch {
             bindings = <&tog 3>;
             key-positions = <36 41>;
         };
 
-        layout_switch {
+        blender_switch {
             bindings = <&tog 6>;
             key-positions = <37 40>;
         };
