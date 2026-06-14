@@ -92,7 +92,7 @@
         and {
             bindings = <&kp AMPERSAND>;
             key-positions = <7 19>;
-        };
+        };2
 
         str {
             bindings = <&kp ASTERISK>;
@@ -124,6 +124,10 @@
             key-positions = <37 40>;
         };
 
+        sys_switch {
+            bindings = <&tog 9>;
+            key-positions = <37 38 39 40 41 42>;
+        };
 };
 
     conditional_layers { compatible = "zmk,conditional-layers"; };
@@ -210,6 +214,15 @@
 &trans  &kp Z  &kp X  &kp C          &kp V         &kp B          &none  &none  &none  &none  &none  &trans
                       &mt LCTRL TAB  &kp LEFT_GUI  &lt 2 SPACE    &none  &none  &none
             >;
+        };
+
+        sys_layer9 {
+            bindings = <
+&trans  &bt BT_CLR    &bt BT_CLR_ALL  &bt BT_PRV    &bt BT_NXT    &trans          &none  &none  &none  &none  &none  &trans
+&trans  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &none  &none  &none  &none  &none  &trans
+&trans  &bootloader   &sys_reset      &none         &none         &none           &none  &none  &none  &none  &none  &trans
+                                      &trans        &trans        &trans          &none  &none  &none
+           >;
         };
     };
 };
