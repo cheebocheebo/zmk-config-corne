@@ -174,8 +174,8 @@
         photoshop_layer4 {
             bindings = <
 &trans  &trans     &kp LC(Y) &kp F3  &kp LC(M)     &kp LC(X)       &none  &none  &none  &none  &none  &trans
-&trans  &kp LC(P)  &kp LC(U) &kp D   &kp W         &kp LC(LS(C))   &none  &none  &none  &none  &none  &trans
-&trans  &trans     trans     &kp S   &kp LC(LS(I)) &trans          &none  &none  &none  &none  &none  &trans
+&trans  &kp LC(P)  &kp LC(U) &kp E   &kp W         &kp LC(LS(C))   &none  &none  &none  &none  &none  &trans
+&trans  &trans     &trans    &kp S   &kp LC(LS(I)) &trans          &none  &none  &none  &none  &none  &trans
                              &trans  &trans        &trans          &none  &none  &none
             >;
         };
